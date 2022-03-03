@@ -4,14 +4,65 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <link rel="icon" href="<%= BASE_URL %>favicon.ico"> -->
+    <!-- <link rel="icon" href="<%= BASE_URL %>favicon.png"> -->
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>Sway says "Hi!"</title>
+    <!-- FontAwesome for Bulma -->
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<!-- jQuery slim 3.3.1 script -->
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script> -->
+	<!-- Vue JS CDN script -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	<!-- <script src="https://unpkg.com/vue@next"></script> -->
+	<!-- Vue Router CDN script -->
+	<!-- <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script> -->
+	<!-- custom JS script -->
+	<!-- <script type="text/javascript" src="js/main.js"></script> -->
   </head>
-  <body>
+  <body class="">
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+
+
     <div id="app"></div>
+    <!-- BURGER AND NAVIGATION	 -->
+    <!-- <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about-me" class="navigation__link">
+              <span>01</span> About Me </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#blog-podcast" class="navigation__link">
+              <span>02</span> Blog & Podcast </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#project-gallery" class="navigation__link">
+              <span>03</span> Project Gallery </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact-info" class="navigation__link">
+              <span>04</span> Contact Info </a>
+          </li>
+        </ul>
+      </nav>
+    </div> -->
+
     <!-- built files will be auto injected -->
   </body>
 </html>
