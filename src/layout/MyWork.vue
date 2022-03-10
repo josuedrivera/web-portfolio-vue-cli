@@ -1,5 +1,4 @@
 <template>
-  <h1>{{ msg }}</h1>
   <!-- PROJECTS SECTION -->
   <section
     id="project-gallery"
@@ -81,6 +80,7 @@
                   >
                     <!-- MY PROJECTS: LIST  -->
                     <ul class="px-4">
+                      <h1>{{ msg }}</h1>
                       <li class="">
                         <router-link to="/one" class="has-text-primary"
                           >Digital Drumkit
