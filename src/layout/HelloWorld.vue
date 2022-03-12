@@ -8,17 +8,17 @@
         Your browser is not supported!
       </video>
 		
-      <figure class="hero-head image has-background-info-dark p-1 logoTest">
-        <img class="is-rounded" src="../assets/swaysauce_pfp.jpeg" alt="" />
-      </figure>
     </div>
-        <h1 id="" class="title is-size-1 has-text-white ">Josue Demar Rivera	</h1>
 
     <!-- LANDING PAGE CONTENT -->
     <div id="hello-world-hero" class="hero-body">
+      <figure class="hero-head image has-background-info-dark p-1 logoTest">
+        <img class="is-rounded" src="../assets/swaysauce_pfp.jpeg" alt="" />
+      </figure>
      
-
       <div id="hello-world-hero-container" class="container">
+        <h1 id="jdr" class="title is-size-1 has-text-white my-6 pt-6">Josue Demar Rivera	</h1>
+
         
         <!-- <h1 id="" class="has-text-info testType p-0">Josue Rivera</h1>
         <div
@@ -136,7 +136,13 @@ export default {
   z-index: 100;
 }
 
-
+/* #jdr {
+  text-align: center;
+  color: #FCDD57;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+} */
 
 
 

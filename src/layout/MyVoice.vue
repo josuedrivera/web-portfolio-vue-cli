@@ -1,10 +1,15 @@
 <template>
   <section
     id="blog-podcast"
-    class="section hero is-fullheight has-background-warning py-6 is-flex "
+    class="section columns hero is-fullheight has-background-warning py-6 is-flex "
   >
     <div class="columns column is-8 is-offset-2 my-0 has-background-success is-justify-content-flex-end m-0 p-0">
       <h2 class="title is-size-1 has-background-info has-text-danger">MY PERSPECTIVE</h2>
+    </div>
+
+    <div class="tile is-ancestor box columns column is-12 has-background-dark ">
+     
+      
     </div>
 
     <div>
