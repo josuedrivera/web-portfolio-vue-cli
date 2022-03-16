@@ -27,3 +27,8 @@ app.component('the-footer', TheFooter);
 // app.component('base-button', BaseButton);
 
 app.mount('#app');
+
+
+
+
+

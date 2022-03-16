@@ -1,9 +1,11 @@
 <template>
+
   <HelloWorld msg="Welcome to my WEB_PORTFOLIO/>" />
   <MyBio msg="This is my Bio and Skillset" />
   <MyVoice msg="Check out my Blog and Podcast!" />
   <MyWork msg="Check out my Project Gallery!" />
   <TheFooter msg="Stay in touch!" />
+
 
   <!-- BURGER AND NAVIGATION -->
   <div class="navigation">
@@ -72,14 +74,14 @@ export default {
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: inherit;
 }
 
 html {
   background-color: black;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {

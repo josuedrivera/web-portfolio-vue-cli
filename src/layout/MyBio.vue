@@ -1,53 +1,185 @@
 <template>
-  <section
+ <section
     id="about-me"
-    class="section hero is-fullheight has-background-black-ter py-6 is-flex"
+    class="
+      section
+      columns
+      hero
+      is-fullheight
+      has-background-black-ter   
+      is-vcentered
+    "
   >
-    <div class="columns column is-8 is-offset-2 my-0">
-        <h1 class="is-size-1 has-text-white">{{ msg }}</h1>
-		<!-- SectionTitle here -->
-    </div>
+	<div class="columns column hero-head is-8 has-background-black-ter">
+      <h2 class="title is-size-1 has-text-primary">ABOUT ME</h2>
+    </div> 
 
-
-
-	<div class="container columns is-centered py-4 has-background-success">
+    <div
+      class="
+        container
+        hero-body
+        columns
+        column
+        box
+        tile
+        is-ancestor is-10 is-centered
+        has-background-black-ter py-0
+      "
+    >
       <div
-        class="
-          tile
-          is-ancestor
-          box
-          column
-          columns
-          has-background-info
-          is-10
-        "
+        class="tile box has-background-danger is-12"
       >
-        <div class="tile box has-background-black p-3 has-background-warning">
-          <div class="tile is-parent is-vertical is-4 has-text-centered p-0 has-background-danger">
-            <!-- bio article here -->
+
+          <div class="tile is-parent is-vertical is-4 has-text-centered p-0 has-background-primary">
+            <article
+              class="tile is-child is-flex"
+            >
+              <div
+                class="
+                  
+                "
+              >
+                <!-- headshot -->
+                <figure class="image p-4">
+                  <img
+                    id="headshot"
+                    class="is-rounded p-0"
+                    src="../assets/headshotsm.jpg"
+                  />
+                </figure>
+
+                <!-- <h1>{{ msg }}</h1> -->
+
+                <!-- name and title -->
+                <div class="box has-background-danger mx-4 py-2">
+                  <h1 class="title has-text-white">Josue Rivera</h1>
+                  <h2 class="subtitle has-text-black">
+                    Front-End Developer
+                    <!-- | Creative Professional -->
+                  </h2>
+                </div>
+
+                <div class="container">
+                  <span class="is-size-3 has-text-white">
+                    <!-- <i class="fas fa-map-pin"></i> -->
+                    <i class="fas fa-map-marker-alt has-text-danger"></i> San
+                    Mateo, CA
+                  </span>
+                  <br />
+                  <span class="is-size-3 has-text-white">
+                    <i class="fas fa-lock-open has-text-success"></i>
+                    Looking for Work
+                  </span>
+                  <br />
+                  <span class="is-size-3 has-text-white">
+                    <i class="fas fa-paw has-text-info"></i>
+                    Smokey & Bandit
+                  </span>
+                  <!-- <span class="is-size-3 has-text-white">
+										<i class="fas fa-paw"></i>
+										
+									</span> -->
+                  <a href="#blog-podcast">
+                    <span class="is-block has-text-warning is-size-3">
+                      <i
+                        class="
+                          fas
+                          fa-angle-down
+                          welcome-down
+                          is-size-3
+                          has-text-warning
+                          p-0
+                          m-0
+                        "
+                      ></i>
+                      Checkout My Work</span
+                    >
+                  </a>
+                </div>
+
+                <!-- test paragraph -->
+                <!-- <div class="p-4">
+									<div class="box is-size-5 has-background-grey-darker p-0">
+										<div class="container">
+											<p class="block has-text-primary-dark has-text-centered is-size-5">
+												--blog & podcast in progress--
+											</p>
+										</div>
+										<a href="#project-gallery">
+											<span class="is-block is-size-4 has-text-danger p-0">
+												<i class="fas fa-angle-down welcome-down p-0 m-0"></i> CHECK OUT MY
+												WORK</span>
+										</a>
+									</div>
+								</div> -->
+                <!-- closes bio column -->
+              </div>
+            </article>
           </div>
-          <div class="tile is-vertical has-background-primary p-4">
+
+
+          <div class="tile is-vertical p-4">
             <div
-              class="is-12 is-flex is-flex-direction-column has-background-info"
+              class="is-12 is-flex is-flex-direction-column "
             >
               <!-- vue router -->
               <div id="about-me" class="">
                 <div class="has-background-grey-darker">
                   <div v-html="softSkill"></div>
-                  <!-- <transition mode="out-in" name="bounce">
-										<router-view></router-view>
-									</transition> -->
+                  <transition mode="out-in" name="bounce">
+					<router-view></router-view>
+				</transition>
                 </div>
               </div>
             </div>
-				<!-- BioDisplay here -->
+            <div class="tile is-parent has-background-grey-darker p-0">
+              <article class="tile is-child is-flex is-align-self-flex-end">
+                <div
+                  class="
+                    column
+                    is-flex
+                    is-align-content-flex-end
+                    is-justify-content-flex-end
+                    p-0
+                    m-0
+                  "
+                >
+                  <!-- buttons  -->
+                  <div class="buttons has-addons ">
+                    <router-link class="button is-danger" to="/aboutMe">
+                      About Me</router-link
+                    >
+
+                    <router-link class="button is-danger" to="/hardSkills">
+                      Hard Skills</router-link
+                    >
+
+                    <router-link class="button is-danger" to="/softSkills">
+                      Soft Skills</router-link
+                    >
+
+                    <router-link
+                      class="button is-inverted is-danger"
+                      to="/spaceMan"
+                    >
+                      <i class="fas fa-lg fa-user-astronaut"></i>
+                    </router-link>
+                  </div>
+                  <!-- closes column div  -->
+                </div>
+              </article>
+            </div>
           </div>
-        </div>
+       
       </div>
       <!-- closes container div  -->
     </div>
 
-    
+
+	<div>
+      <h1>{{ msg }}</h1>
+
+    </div>
   </section>
 </template>
 

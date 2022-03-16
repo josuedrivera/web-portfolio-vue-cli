@@ -1,21 +1,27 @@
 <template>
-  <!-- PROJECTS SECTION -->
-  <section
-    id="project-gallery"
-    class="section hero is-fullheight has-background-black-ter py-6"
-  >
-    <div class="columns column is-8 is-offset-2 my-0">
-      <div class="columns column has-background-black-ter m-0 p-0">
+<section id="project-gallery" class="hero is-dark is-fullheight is-vcentered columns">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head columns column is-8">
         <h2 class="title is-size-1 has-text-grey-light">PROJECT GALLERY</h2>
-      </div>
-    </div>
-    <!-- <div class="columns column is-8 is-offset-2 my-0">
-			<div class="columns column has-background-grey-darker is-flex is-justify-content-flex-end m-0 p-0">
-				<h2 class="title is-size-1 has-text-grey-light">MY PROJECTS</h2>
-			</div>
-		</div> -->
 
-    <div id="project-slides" class="container columns is-centered py-4">
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <!-- <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title">
+        Title
+      </p>
+      <p class="subtitle">
+        Subtitle
+      </p>
+    </div>
+  </div> -->
+
+
+
+
+   <div id="project-slides" class="hero-body container columns is-centered py-4 ">
       <div
         class="
           tile
@@ -173,6 +179,50 @@
         </div>
       </div>
     </div>
+
+
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <!-- <li class="is-active"><a>Overview</a></li> -->
+          <li><a>Natours</a></li>
+          <li><a>yelpCamp</a></li>
+          <li><a>places2Go</a></li>
+          <li><a>Zodiac</a></li>
+          <li><a>Color Guess</a></li>
+          <li><a>Villains</a></li>
+          <li><a>DigiDrumkit</a></li>
+          <li><a>Monster Slayer</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<!-- </section> -->
+
+
+
+
+
+
+
+
+
+  <!-- PROJECTS SECTION -->
+  <!-- <section
+    id="project-gallery"
+    class="section hero is-fullheight has-background-black-ter py-6"
+  > -->
+    
+    <!-- <div class="columns column is-8 is-offset-2 my-0">
+			<div class="columns column has-background-grey-darker is-flex is-justify-content-flex-end m-0 p-0">
+				<h2 class="title is-size-1 has-text-grey-light">MY PROJECTS</h2>
+			</div>
+		</div> -->
+
+   
   </section>
 </template>
 
