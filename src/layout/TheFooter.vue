@@ -1,9 +1,80 @@
 <template>
-	<section id="contact-info" class="hero is-fullheight has-background-black-ter pt-6">
-		<div class="columns column is-8 is-offset-2 my-0">
-			<div class="columns column has-background-grey-black-ter is-flex is-justify-content-flex-end m-0 p-0">
-        <h1>{{ msg }}</h1>
-				<h2 class="title is-size-1 has-text-warning">CONTACT INFO</h2>
+
+
+   
+
+    <!-- <div class="columns box tile is-ancestor is-10 has-background-dark">
+      <div class="tile box has-background-black p-3 has-background-warning">
+        <div
+          class="
+            tile
+            is-parent is-vertical is-4
+            has-text-centered
+            p-0
+            has-background-danger
+          "
+        >
+          <article class="tile is-child is-flex m-0 p-0">
+            <div class="has-background-primary">
+              
+       
+            </div>
+          </article>
+        </div>
+
+
+
+        <div class="tile is-vertical has-background-primary p-4">
+         
+          </div>
+          <div class="tile is-parent has-background-grey-darker is-flex is-align-self-flex-end p-0">
+            <article class="tile is-child is-flex  ">
+              <div
+                class="
+                  has-background-success
+                  is-flex is-align-content-flex-end is-justify-content-flex-end
+                  p-0
+                  m-0
+                "
+              >
+               
+
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  
+
+
+<!-- <section
+    id="blog-podcast"
+    class="
+      section
+      columns
+      hero
+      is-fullheight
+      has-background-warning
+      py-6
+      is-vcentered
+    "
+  > -->
+
+	<!-- <section id="contact-info" class="hero is-fullheight has-background-black-ter pt-6"> -->
+	<section id="contact-info" class="section
+      columns
+      hero
+      is-fullheight
+      has-background-warning
+      py-6
+      is-vcentered">
+		<div class="columns column is-8 is-offset-2 ">
+			<h1>{{ msg }}</h1>
+			<div class="columns column has-background-grey-black-ter is-flex is-justify-content-flex-end ">
+				<h2 class="title is-size-1 has-text-dark">CONTACT INFO</h2>
+				
 			</div>
 		</div>
 
@@ -17,6 +88,7 @@
 						<p class="is-size-1 px-6 has-text-centered">Thanks for visiting my site.</p>
 						<p class="is-size-3 px-6 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel atque molestias hic quia porro alias adipisci assumenda molestiae excepturi iusto, nobis officia reiciendis tempora laborum quod ipsa in inventore. Email me for work inquiries.</p>
 						<!-- <p class="is-size-6 p-6">work inquiries</p> -->
+        
 					</div>
 
 				</div>
@@ -96,67 +168,67 @@
 					</div>
 
 					<!-- SOCIAL MEDIA TEXT  AND LINKS-->
-					<div id="" class="tile is-vertical has-text-right is-flex is-justify-content-flex-end">
+					<!-- <div id="" class="tile is-vertical has-text-right is-flex is-justify-content-flex-end">
 						<span class="is-size-4 is-align-flex-start">
 							<a href="#welcome">
 								back to top
 								<i class="fas fa-chevron-up"></i>
 							</a>
-						</span>
+						</span> -->
 	
 						<!-- SOCIAL MEDIA TEXT  -->
-						<div class="pt-6">
+						<!-- <div class="pt-6">
 							<p class="subtitle is-size-5 has-text-warning is-flex is-justify-content-flex-end">
 								CHECK OUT MY
 							</p>
 							<p class="title is-size-3 has-text-white is-flex is-justify-content-flex-end">
 								SOCIAL MEDIA
 							</p>
-						</div>
+						</div> -->
 
 						<!-- SOCIAL MEDIA ICON LIST  -->
-						<div
+						<!-- <div
 							class="column columns is-10 is-offset-2 py-5 is-flex is-justify-content-space-between is-align-self-flex-end">
 							<a href="https://www.linkedin.com/in/josuedrivera/" target="_blank"
 								class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-linkedin"></i>
+								<i class="icon is-large fas fa-3x fab fa-linkedin"></i> -->
 								<!-- LinkedIn -->
-							</a>
+							<!-- </a>
 
 							<a href="https://github.com/josuedrivera" target="_blank" class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-github"></i>
+								<i class="icon is-large fas fa-3x fab fa-github"></i> -->
 								<!-- GitHub -->
-							</a>
+							<!-- </a>
 
 							<a id="profile-link" href="https://codepen.io/josuedrivera" target="_blank"
 								class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-codepen"></i>
+								<i class="icon is-large fas fa-3x fab fa-codepen"></i> -->
 								<!-- CodePen -->
-							</a>
+							<!-- </a>
 
 							<a id="profile-link" href="https://www.freecodecamp.org/josuedrivera" target="_blank"
 								class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-free-code-camp"></i>
+								<i class="icon is-large fas fa-3x fab fa-free-code-camp"></i> -->
 								<!-- FreeCodeCamp -->
-							</a>
+							<!-- </a>
 
 							<a href="https://www.instagram.com/swaysauce/" target="_blank" class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-instagram"></i>
+								<i class="icon is-large fas fa-3x fab fa-instagram"></i> -->
 								<!-- Instagram -->
-							</a>
+							<!-- </a>
 
 							<a href="https://www.facebook.com/worldgoneswayzee/" target="_blank"
 								class="btn contact-details">
-								<i class="icon is-large fas fa-3x fab fa-facebook-square"></i>
+								<i class="icon is-large fas fa-3x fab fa-facebook-square"></i> -->
 								<!-- Facebook -->
-							</a>
-						</div>
-					</div>
+							<!-- </a>
+						</div> -->
+					<!-- </div> -->
 				</div>
 			</div>
 
 			<!-- FOOTER W/COPYRIGHT AND YEAR  -->
-			<footer class="card-footer has-background-black">
+			<!-- <footer class="card-footer has-background-black">
 				<p class="card-footer-item">
 					<span class="is-size-4">
 						<span class="pl-6">
@@ -166,7 +238,7 @@
 					</span>
 				</p>
 
-			</footer>
+			</footer> -->
 		</div>
 	</section>
 </template>

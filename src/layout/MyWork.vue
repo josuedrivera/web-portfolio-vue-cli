@@ -1,13 +1,23 @@
 <template>
-<section id="project-gallery" class="hero is-dark is-fullheight is-vcentered columns">
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head columns column is-8">
-        <h2 class="title is-size-1 has-text-grey-light">PROJECT GALLERY</h2>
+  <section
+    id="project-gallery"
+    class="hero is-dark is-fullheight is-vcentered columns"
+    
+  >
+    <!-- Hero head: will stick at the top -->
+    <div  class="
+        columns
+        column
+        is-8
+         py-6
+        has-text-right
+        
+      ">
+      <h2 class="title is-size-1 has-text-grey-light">PROJECT GALLERY</h2>
+    </div>
 
-  </div>
-
-  <!-- Hero content: will be in the middle -->
-  <!-- <div class="hero-body">
+    <!-- Hero content: will be in the middle -->
+    <!-- <div class="hero-body">
     <div class="container has-text-centered">
       <p class="title">
         Title
@@ -19,10 +29,12 @@
   </div> -->
 
 
-
-
-   <div id="project-slides" class="hero-body container columns is-centered py-4 ">
-      <div
+    <div
+      id="project-slides"
+      class="columns box tile is-ancestor is-10 has-background-dark "
+    >
+     <div class="tile box has-background-black p-3 has-background-warning">
+      <!-- <div
         class="
           tile
           is-ancestor
@@ -32,7 +44,19 @@
           has-background-grey-light
           is-10
         "
-      >
+      > -->
+      <!-- <div
+          class="
+            tile
+            is-parent is-vertical is-4
+            has-text-centered
+            p-0
+            has-background-danger
+          "
+        >
+          <article class="tile is-child is-flex m-0 p-0">
+            <div class="has-background-primary"> -->
+
         <div class="tile is-vertical box has-background-black p-3">
           <div class="card p-0">
             <div class="card-content has-background-grey-darker">
@@ -180,49 +204,37 @@
       </div>
     </div>
 
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <!-- <ul>
+            <li class="is-active"><a>Overview</a></li>
+            <li><a>Natours</a></li>
+            <li><a>yelpCamp</a></li>
+            <li><a>places2Go</a></li>
+            <li><a>Zodiac</a></li>
+            <li><a>Color Guess</a></li>
+            <li><a>Villains</a></li>
+            <li><a>DigiDrumkit</a></li>
+            <li><a>Monster Slayer</a></li>
+          </ul> -->
+        </div>
+      </nav>
+    </div>
+    <!-- </section> -->
 
-
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
-      <div class="container">
-        <ul>
-          <!-- <li class="is-active"><a>Overview</a></li> -->
-          <li><a>Natours</a></li>
-          <li><a>yelpCamp</a></li>
-          <li><a>places2Go</a></li>
-          <li><a>Zodiac</a></li>
-          <li><a>Color Guess</a></li>
-          <li><a>Villains</a></li>
-          <li><a>DigiDrumkit</a></li>
-          <li><a>Monster Slayer</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-<!-- </section> -->
-
-
-
-
-
-
-
-
-
-  <!-- PROJECTS SECTION -->
-  <!-- <section
+    <!-- PROJECTS SECTION -->
+    <!-- <section
     id="project-gallery"
     class="section hero is-fullheight has-background-black-ter py-6"
   > -->
-    
+
     <!-- <div class="columns column is-8 is-offset-2 my-0">
 			<div class="columns column has-background-grey-darker is-flex is-justify-content-flex-end m-0 p-0">
 				<h2 class="title is-size-1 has-text-grey-light">MY PROJECTS</h2>
 			</div>
 		</div> -->
-
-   
   </section>
 </template>
 
