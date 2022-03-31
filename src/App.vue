@@ -81,7 +81,7 @@ export default {
 
 html {
   background-color: black;
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
 }
 
 body {

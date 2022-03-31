@@ -17,7 +17,7 @@
         column
         is-8
         my-0
-        has-background-success has-text-right
+        has-background-success 
         m-0
         p-0
       "
@@ -136,13 +136,17 @@
             <article class="tile is-child is-flex  ">
               <div
                 class="
+                  container
                   has-background-success
-                  is-flex is-align-content-flex-end is-justify-content-flex-end
+                  is-flex
+                  
                   p-0
                   m-0
                 "
               >
-                <div class="buttons has-addons">
+                <section class="buttons has-addons">
+                  <!-- <div class=""> -->
+
                   <router-link class="button is-danger" to="/aboutMe">
                     About Me</router-link
                   >
@@ -161,7 +165,9 @@
                   >
                     <i class="fas fa-lg fa-user-astronaut"></i>
                   </router-link>
-                </div>
+
+                  <!-- </div> -->
+                </section>
 
                 <!-- closes column div  -->
               </div>
