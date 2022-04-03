@@ -125,14 +125,15 @@ export default {
   position: fixed;
   top: 4rem;
   left: 4rem;
-  color: aqua;
+  /* color: aqua; */
   font-family: 'Economica', sans-serif;
   font-size: 3rem;
-  
+  /* border: 0.5rem solid teal; */
+  border: 0.5rem solid #07d1b2;
   border-radius: 50%;
   font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: overline dotted teal 30px;
+  /* text-transform: uppercase; */
+  /* text-decoration: overline dotted teal 30px; */
   /* padding: 20px; */
   z-index: 100;
 }
@@ -143,7 +144,8 @@ export default {
   width: 70%;
   height: 5px;
   /* background-color: hsl(180, 100%, 25%); */
-  background-color: whitesmoke;
+  /* background-color: aqua; */
+  background-color: #07d1b2;
   border: none;
   border-radius: 50%;
   margin: 2rem auto;
@@ -151,6 +153,7 @@ export default {
 
 /* {
   color: #FCDD57;
+  color: #07D1B2;
 } */
 
 
@@ -160,7 +163,8 @@ export default {
 }
 
 .navigation__button {
-  background-color: teal;
+  /* background-color: teal; */
+  background-color: #07D1B2;
   height: 7rem;
   /* height: 5rem; */
   width: 7rem;
@@ -197,7 +201,8 @@ export default {
   top: 5rem;
   right: 5rem;
   /* // background-image: radial-gradient($color-primary-light, $color-primary-dark); */
-  background-image: radial-gradient(aqua, teal);
+  /* background-image: radial-gradient(aqua, teal); */
+  background-image: radial-gradient(aqua, #07D1B2);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -292,7 +297,7 @@ export default {
 /* //ICON */
 .navigation__icon {
   position: relative;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   margin-top: 3.5rem;
 }
 
@@ -303,7 +308,7 @@ export default {
   width: 2.5rem;
   height: 2px;
   /* background-color: $color-grey-darkest; */
-  background-color: greenyellow;
+  background-color: aqua;
   display: inline-block;
 }
 

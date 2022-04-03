@@ -89,7 +89,7 @@ html {
 body {
   box-sizing: border-box;
   background-color: transparent;
-  /* padding: 2rem; */
+  padding-left: 1rem;
 }
 
 ::selection {

@@ -6,7 +6,7 @@
       columns
       hero
       is-fullheight
-      has-background-warning
+      has-background-black-ter 
       py-6
       is-vcentered
     "
@@ -17,18 +17,18 @@
         column
         is-8
         my-0
-        has-background-success 
+        
         m-0
         p-0
       "
     >
-      <h2 class="title is-size-1 has-background-info has-text-danger">
+      <h2 class="title is-size-1 has-text-danger">
         MY PERSPECTIVE
       </h2>
     </div>
 
-    <div class="columns box tile is-ancestor is-10 has-background-dark">
-      <div class="tile box has-background-black p-3 has-background-warning">
+    <div class="columns box tile is-ancestor is-10">
+      <div class="tile box has-background-black p-3 has-background-black-ter">
         <div
           class="
             tile
