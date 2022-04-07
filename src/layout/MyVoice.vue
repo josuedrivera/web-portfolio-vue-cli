@@ -1,5 +1,71 @@
 <template>
-  <section
+
+<section
+    id="blog-podcast"
+    class="
+      section
+      columns
+      hero
+      is-fullheight
+      has-background-black-ter
+      is-vcentered
+      
+    "
+  >
+    <div
+      class="container columns column hero-head is-8 has-background-black-ter"
+    >
+      <h2 class="title is-size-1 has-text-danger">MY PERSPECTIVE</h2>
+    </div>
+
+    <div
+      class="
+        container
+        hero-body
+        columns
+        column
+        box
+        tile
+        is-ancestor is-12 is-centered
+        has-background-black-ter
+        py-0
+      "
+    >
+      <div class="tile box has-background-danger is-12">
+        <div
+          class="
+            tile
+            is-parent is-vertical
+            has-text-centered
+            p-0
+            has-background-grey-dark
+          "
+        >
+          <article class="tile is-child is-flex">
+            <div class="container">
+              
+            </div>
+          </article>
+        </div>
+
+        <div class="has-background-grey-darker tile is-vertical p-4  is-4">
+          <div class="is-12 is-flex is-flex-direction-column">
+            
+          </div>
+
+          <div>
+            <h1>{{ msg }}</h1>
+          </div>
+
+         
+        </div>
+      </div>
+      <!-- closes container div  -->
+    </div>
+  </section>
+
+
+  <!-- <section
     id="blog-podcast"
     class="
       section
@@ -27,20 +93,21 @@
       </h2>
     </div>
 
-    <div class="columns box tile is-ancestor is-10">
-      <div class="tile box has-background-black p-3 has-background-black-ter">
+    <div class="columns box tile is-ancestor is-10 has-background-black-ter">
+      <div class="tile box has-background-black p-3 has-background-danger">
         <div
           class="
             tile
             is-parent is-vertical is-4
             has-text-centered
             p-0
-            has-background-danger
+            has-background-primary
           "
         >
           <article class="tile is-child is-flex m-0 p-0">
             <div class="has-background-primary">
-              <!-- headshot -->
+
+              headshot
               <figure class="image has-background-primary p-4">
                 <img
                   id="headshot"
@@ -49,18 +116,18 @@
                 />
               </figure>
 
-              <!-- name and title -->
-              <div class="box has-background-danger mx-4 py-2">
+              name and title
+              <div class="box has-background-danger">
                 <h1 class="title has-text-white">Josue Rivera</h1>
                 <h2 class="subtitle has-text-black">
                   Front-End Developer
-                  <!-- | Creative Professional -->
+                  | Creative Professional
                 </h2>
               </div>
 
               <div class="container">
                 <span class="is-size-3 has-text-white">
-                  <!-- <i class="fas fa-map-pin"></i> -->
+                  <i class="fas fa-map-pin"></i>
                   <i class="fas fa-map-marker-alt has-text-danger"></i> San
                   Mateo, CA
                 </span>
@@ -74,10 +141,10 @@
                   <i class="fas fa-paw has-text-info"></i>
                   Smokey & Bandit
                 </span>
-                <!-- <span class="is-size-3 has-text-white">
+                <span class="is-size-3 has-text-white">
 										<i class="fas fa-paw"></i>
 										
-									</span> -->
+									</span>
                 <a href="#blog-podcast">
                   <span class="is-block has-text-warning is-size-3">
                     <i
@@ -96,22 +163,7 @@
                 </a>
               </div>
 
-              <!-- test paragraph -->
-              <!-- <div class="p-4">
-									<div class="box is-size-5 has-background-grey-darker p-0">
-										<div class="container">
-											<p class="block has-text-primary-dark has-text-centered is-size-5">
-												--blog & podcast in progress--
-											</p>
-										</div>
-										<a href="#project-gallery">
-											<span class="is-block is-size-4 has-text-danger p-0">
-												<i class="fas fa-angle-down welcome-down p-0 m-0"></i> CHECK OUT MY
-												WORK</span>
-										</a>
-									</div>
-								</div> -->
-              <!-- closes bio column -->
+          
             </div>
           </article>
         </div>
@@ -122,13 +174,13 @@
           <div
             class="is-12 is-flex is-flex-direction-column"
           >
-            <!-- vue router -->
+            vue router
             <div id="about-me" class="">
               <div class="has-background-grey-darker">
                 <div v-html="softSkill"></div>
-                <!-- <transition mode="out-in" name="bounce">
+                <transition mode="out-in" name="bounce">
 										<router-view></router-view>
-									</transition> -->
+									</transition>
               </div>
             </div>
           </div>
@@ -145,7 +197,7 @@
                 "
               >
                 <section class="buttons has-addons">
-                  <!-- <div class=""> -->
+               
 
                   <router-link class="button is-danger" to="/aboutMe">
                     About Me</router-link
@@ -166,10 +218,10 @@
                     <i class="fas fa-lg fa-user-astronaut"></i>
                   </router-link>
 
-                  <!-- </div> -->
+                 
                 </section>
 
-                <!-- closes column div  -->
+          
               </div>
             </article>
           </div>
@@ -180,7 +232,7 @@
     <div>
       <h1>{{ msg }}</h1>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script>
