@@ -31,23 +31,70 @@
       </h2>
     </div> -->
 
-    <div class="columns column is-8 is-offset-2 my-0">
+    <div class="columns column container">
       <!-- <div class="columns column has-background-grey-black-ter is-flex is-justify-content-flex-end m-0 p-0"> -->
       <h2 class="title is-size-1 has-text-info">CONTACT INFO</h2>
       <h1>{{ msg }}</h1>
       <!-- </div> -->
     </div>
 
+    <div
+      class="
+        container
+        columns
+        column
+        box
+        tile
+        is-ancestor is-12 is-centered
+        has-background-black-ter
+        mb-auto
+      "
+    >
+      <div class="tile box has-background-danger is-12">
+        <div
+          class="tile is-parent has-text-centered p-0 has-background-grey-dark"
+        >
+          <article class="tile is-child">
+            <div class="tile is-ancestor box has-background-black-ter">
+              <div class="tile is-parent box has-background-warning p-0">
+                <div
+                  class="
+                    tile
+                    is-child
+                    box
+                    has-background-grey-darker has-text-warning
+                  "
+                >
+                  <p class="is-size-1 px-6 has-text-centered">
+                    Thanks for visiting my site.
+                  </p>
+                  <p class="is-size-3 px-6 py-3 has-text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem vel atque molestias hic quia porro alias adipisci
+                    assumenda molestiae excepturi iusto, nobis officia
+                    reiciendis tempora laborum quod ipsa in inventore. Email me
+                    for work inquiries.
+                  </p>
+                  <!-- <p class="is-size-6 p-6">work inquiries</p> -->
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- <div class=" tile is-parent has-background-grey-dark  ">
+            <article class="tile is-child container">
+             
+            </article> 
+          </div> -->
+      </div>
+    </div>
+
     <div id="" class="column is-10 is-offset-1 py-4">
       <div class="tile is-ancestor box has-background-black-ter">
         <div class="tile is-parent box has-background-info p-0">
           <div
-            class="
-              tile
-              is-child
-              box
-              has-background-grey-darker has-text-info
-            "
+            class="tile is-child box has-background-grey-darker has-text-info"
           >
             <p class="is-size-1 px-6 has-text-centered">
               Thanks for visiting my site.
@@ -64,10 +111,10 @@
       </div>
     </div>
 
-    <div id="" class="card has-background-info">
+    <div id="" class="card has-background-danger">
       <div class="container card-content">
         <div class="columns column">
-          <div class="tile is-vertical ">
+          <div class="tile is-vertical">
             <div class="is-size-4 has-text-right">
               <a href="#hello-world" class="has-text-black">
                 back to top
@@ -173,18 +220,6 @@
                     height="24"
                   />
                 </a>
-              </span>
-
-              <span class="">
-                Video by:
-                <a
-                  href="https://instagram.com/freecreativestuff"
-                  class=""
-                >
-                  <i class="fab fa-instagram"></i> Free Creative Stuff
-                </a>
-                via
-                <a href="https://www.pexels.com/">Pexels.com</a>
               </span>
 
               <div class="has-text-white is-size-4">

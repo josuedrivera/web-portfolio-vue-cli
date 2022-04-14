@@ -8,25 +8,34 @@
       is-fullheight
       has-background-black-ter
       is-vcentered
+
+      
     "
   >
     <div
-      class="container columns column hero-head is-8 has-background-black-ter"
+      class="container columns column  is-8 has-background-black-ter"
     >
       <h2 class="title is-size-1 has-text-primary">ABOUT ME</h2>
     </div>
 
+
+     <!-- section
+      columns
+      hero
+      is-fullheight
+      has-background-black-ter
+      is-vcentered -->
     <div
       class="
         container
-        hero-body
+        
         columns
         column
         box
         tile
         is-ancestor is-12 is-centered
         has-background-black-ter
-        py-0
+        mb-auto
       "
     >
       <div class="tile box has-background-primary is-12">
@@ -132,7 +141,7 @@
 
 
           <div class=" tile is-parent has-background-grey-dark  ">
-            <article class="tile is-child container is-flex is-align-content-flex-end is-justify-content-flex-end ">
+            <article class="tile is-child container">
               <!-- <div
                 class="
                   column
@@ -173,7 +182,7 @@
 
 
                 <!-- buttons  -->
-                <div class="buttons has-addons is-flex  ">
+                <div class="buttons has-addons is-flex is-align-content-flex-end is-justify-content-flex-end">
                   <router-link class="button is-danger" to="/aboutMe">
                     About Me</router-link
                   >
@@ -199,6 +208,8 @@
                 <!-- closes column div  -->
               <!-- </div> -->
             </article>
+
+            
           </div>
         <!-- </div> -->
       </div>
