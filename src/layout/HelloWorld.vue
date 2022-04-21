@@ -128,8 +128,8 @@ export default {
   /* color: aqua; */
   font-family: 'Economica', sans-serif;
   font-size: 3rem;
-  /* border: 0.5rem solid teal; */
-  border: 0.5rem solid #07d1b2;
+  border: 0.5rem solid teal;
+  /* border: 0.5rem solid #07d1b2; */
   border-radius: 50%;
   font-weight: 700;
   /* text-transform: uppercase; */
@@ -143,9 +143,9 @@ export default {
 .hero-bar {
   width: 70%;
   height: 5px;
-  /* background-color: hsl(180, 100%, 25%); */
+  background-color: hsl(180, 100%, 25%);
   /* background-color: aqua; */
-  background-color: #07d1b2;
+  /* background-color: #07d1b2; */
   border: none;
   border-radius: 50%;
   margin: 2rem auto;
@@ -163,8 +163,8 @@ export default {
 }
 
 .navigation__button {
-  /* background-color: teal; */
-  background-color: #07D1B2;
+  background-color: teal;
+  /* background-color: #07D1B2; */
   height: 7rem;
   /* height: 5rem; */
   width: 7rem;

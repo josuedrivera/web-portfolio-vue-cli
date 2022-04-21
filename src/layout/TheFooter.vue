@@ -3,7 +3,7 @@
   <!-- <section id="contact-info" class="section hero is-fullheight columns has-background-success is-vcentered pt-6"> -->
   <section
     id="contact-info"
-    class="hero is-fullheight columns has-background-black-ter pt-6"
+    class="section hero is-fullheight columns has-background-black-ter"
   >
     <!-- <section id="contact-info"  class="
       section
@@ -24,6 +24,7 @@
         has-background-success has-text-right
         m-0
         p-0
+        is-vc
       "
     >
       <h2 class="title is-size-1 has-background-info has-text-danger">
@@ -31,23 +32,24 @@
       </h2>
     </div> -->
 
-    <div class="columns column container">
-      <!-- <div class="columns column has-background-grey-black-ter is-flex is-justify-content-flex-end m-0 p-0"> -->
-      <h2 class="title is-size-1 has-text-info">CONTACT INFO</h2>
-      <h1>{{ msg }}</h1>
+    <div class="">
+      <!-- <div class="container columns column has-background-grey-black-ter hero-head is-8"> -->
+      <h2 class="title is-size-1 has-text-warning">CONTACT INFO</h2>
       <!-- </div> -->
     </div>
 
-    <div
+    <!-- <div
       class="
         container
-        columns
-        column
+        is-centered
+        
         box
         tile
-        is-ancestor is-12 is-centered
+        is-ancestor 
+        is-12 
+        is-centered
         has-background-black-ter
-        mb-auto
+        
       "
     >
       <div class="tile box has-background-danger is-12">
@@ -75,26 +77,22 @@
                     reiciendis tempora laborum quod ipsa in inventore. Email me
                     for work inquiries.
                   </p>
-                  <!-- <p class="is-size-6 p-6">work inquiries</p> -->
+                  
                 </div>
               </div>
             </div>
           </article>
         </div>
 
-        <!-- <div class=" tile is-parent has-background-grey-dark  ">
-            <article class="tile is-child container">
-             
-            </article> 
-          </div> -->
+        
       </div>
-    </div>
+    </div> -->
 
-    <div id="" class="column is-10 is-offset-1 py-4">
-      <div class="tile is-ancestor box has-background-black-ter">
-        <div class="tile is-parent box has-background-info p-0">
+    <div id="" class="container  tile is-10 is-offset-1 py-4">
+      <div class="tile is-ancestor box  has-background-warning ">
+        <div class="tile is-parent box has-background-black-bis p-0">
           <div
-            class="tile is-child box has-background-grey-darker has-text-info"
+            class="tile is-child box has-background-grey-darker has-text-warning"
           >
             <p class="is-size-1 px-6 has-text-centered">
               Thanks for visiting my site.
@@ -105,11 +103,16 @@
               excepturi iusto, nobis officia reiciendis tempora laborum quod
               ipsa in inventore. Email me for work inquiries.
             </p>
-            <!-- <p class="is-size-6 p-6">work inquiries</p> -->
+            <p class="is-size-6 p-6">work inquiries</p>
+      <h1>{{ msg }}</h1>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
 
     <div id="" class="card has-background-danger">
       <div class="container card-content">

@@ -3,8 +3,8 @@
   <HelloWorld msg="more about me" />
   <!-- <HelloWorld msg="Welcome to my WEB_PORTFOLIO/>" /> -->
   <MyBio msg="This is my Bio and Skillset" />
-  <!-- <MyVoice msg="Check out my Blog and Podcast!" /> -->
-  <!-- <MyWork msg="Check out my Project Gallery!" /> -->
+  <MyVoice msg="Check out my Blog and Podcast!" />
+  <MyWork msg="Check out my Project Gallery!" />
   <TheFooter msg="Stay in touch!" />
 
 
@@ -48,8 +48,8 @@
 <script>
 import HelloWorld from "./layout/HelloWorld.vue";
 import MyBio from "./layout/MyBio.vue";
-// import MyVoice from "./layout/MyVoice.vue";
-// import MyWork from "./layout/MyWork.vue";
+import MyVoice from "./layout/MyVoice.vue";
+import MyWork from "./layout/MyWork.vue";
 import TheFooter from "./layout/TheFooter.vue";
 
 export default {
@@ -58,8 +58,8 @@ export default {
     // HelloWorld
     HelloWorld,
     MyBio,
-    // MyVoice,
-    // MyWork,
+    MyVoice,
+    MyWork,
     TheFooter,
   },
 };
