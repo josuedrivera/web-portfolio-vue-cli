@@ -4,7 +4,7 @@
     class="section columns hero is-fullheight has-background-black-ter"
   >
     <div class="columns column container is-8 is-offset-2">
-      <h2 class="title is-size-1 has-text-primary">ABOUT ME</h2>
+      <h2 class="title is-size-1 has-text-info pt-6">ABOUT ME</h2>
     </div>
 
 
@@ -93,11 +93,11 @@
        
 
           <div class="tile is-parent has-background-primary is-vertical">
-            <article class="tile is-child box has-background-grey-darker">
+            <article class="tile is-child box has-background-grey is-flex ">
 
               <div
                 class="
-                  container
+                  
                   box
                   has-background-grey-darker has-text-danger has-text-left
                 "

@@ -3,7 +3,7 @@
   <!-- <section id="contact-info" class="section hero is-fullheight columns has-background-success is-vcentered pt-6"> -->
   <section
     id="contact-info"
-    class="section hero is-fullheight columns has-background-black-ter"
+    class=" hero is-fullheight columns  has-background-black-ter"
   >
     <!-- <section id="contact-info"  class="
       section
@@ -31,12 +31,10 @@
         MY PERSPECTIVE
       </h2>
     </div> -->
-
-    <div class="">
-      <!-- <div class="container columns column has-background-grey-black-ter hero-head is-8"> -->
-      <h2 class="title is-size-1 has-text-warning">CONTACT INFO</h2>
-      <!-- </div> -->
+    <div class="columns column container is-8 is-offset-2">
+      <h2 class="title is-size-1 has-text-warning pt-6">CONTACT INFO</h2>
     </div>
+    
 
     <!-- <div
       class="
@@ -88,12 +86,22 @@
       </div>
     </div> -->
 
-    <div id="" class="container  tile is-10 is-offset-1 py-4">
-      <div class="tile is-ancestor box  has-background-warning ">
-        <div class="tile is-parent box has-background-black-bis p-0">
-          <div
-            class="tile is-child box has-background-grey-darker has-text-warning"
-          >
+
+
+    
+
+
+    <!-- <div id="" class="container  tile is-10 is-offset-1 py-4"> -->
+      <div class="m-3 hero-body card has-background-black-ter">
+      <!-- <div class="tile is-ancestor box  has-background-warning "> -->
+        <div class="column is-8 is-offset-2">
+        <!-- <div class="tile is-parent box has-background-black-bis p-0"> -->
+          <div class="has-background-warning box">
+
+          <div class="tile is-child box has-background-grey-darker has-text-warning">
+
+
+
             <p class="is-size-1 px-6 has-text-centered">
               Thanks for visiting my site.
             </p>
@@ -111,21 +119,18 @@
     </div>
 
 
-
-
-
-    <div id="" class="card has-background-danger">
-      <div class="container card-content">
-        <div class="columns column">
+<div id="" class="card has-background-danger ">
+      <div class="has-background-danger  column is-8 is-offset-2">
+        <div class="card-content">
           <div class="tile is-vertical">
-            <div class="is-size-4 has-text-right">
-              <a href="#hello-world" class="has-text-black">
+            <div class="is-size-3 has-text-right">
+              <a href="#hello-world" class="has-text-link">
                 back to top
                 <i class="fas fa-chevron-up"></i>
               </a>
             </div>
 
-            <div id="email-div" class="has-text-left">
+            <!-- <div id="email-div" class="has-text-left">
               <div class="is-size-5 has-text-info-dark">
                 <i class="fas fa-paper-plane"></i>
                 E-MAIL:
@@ -146,18 +151,18 @@
                   >
                 </span>
               </span>
-            </div>
+            </div> -->
 
             <div class="pt-6 has-text-right">
-              <p class="subtitle is-size-5 has-text-info-dark">CHECK OUT MY</p>
-              <p class="title is-size-3 has-text-white">SOCIAL MEDIA</p>
+              <p class="subtitle is-size-3 has-text-link">CHECK OUT MY</p>
+              <p class="title is-size-2 has-text-white">SOCIAL MEDIA</p>
 
               <!-- SOCIAL MEDIA ICON LIST  -->
               <div class="ml-auto">
                 <a
                   href="https://www.linkedin.com/in/josuedrivera/"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details px-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-linkedin"></i>
                   <!-- LinkedIn -->
@@ -166,7 +171,7 @@
                 <a
                   href="https://github.com/josuedrivera"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details  pl-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-github"></i>
                   <!-- GitHub -->
@@ -176,7 +181,7 @@
                   id="profile-link"
                   href="https://codepen.io/josuedrivera"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details  pl-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-codepen"></i>
                   <!-- CodePen -->
@@ -186,7 +191,7 @@
                   id="profile-link"
                   href="https://www.freecodecamp.org/josuedrivera"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details  pl-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-free-code-camp"></i>
                   <!-- FreeCodeCamp -->
@@ -195,7 +200,7 @@
                 <a
                   href="https://www.instagram.com/swaysauce/"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details  pl-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-instagram"></i>
                   <!-- Instagram -->
@@ -204,7 +209,7 @@
                 <a
                   href="https://www.facebook.com/worldgoneswayzee/"
                   target="_blank"
-                  class="btn contact-details"
+                  class="btn contact-details  pl-3"
                 >
                   <i class="icon is-large fas fa-3x fab fa-facebook-square"></i>
                   <!-- Facebook -->
@@ -214,7 +219,13 @@
 
             <div id="credits-div" class="has-text-left">
               <!-- <p class="block is-flex is-align-content-center"></p> -->
-              <span class="pr-4 has-background-grey">
+              
+
+              <div class="has-text-white is-size-2">
+                <span class=""> This website was made using: </span>
+
+               
+              <span class="px-3">
                 <a href="https://bulma.io" class="">
                   <img
                     src="https://bulma.io/images/made-with-bulma.png"
@@ -224,35 +235,32 @@
                   />
                 </a>
               </span>
-
-              <div class="has-text-white is-size-4">
-                <span class=""> This website was made using: </span>
-
-                <span class="">
+               <span class="pl-3">
                   <i class="fab fa-html5"></i>
                 </span>
-                <span class="">
+                <span class="pl-3">
                   <i class="fab fa-css3-alt"></i>
                 </span>
-                <span class="">
+                <span class="pl-3">
                   <i class="fab fa-js-square"></i>
                 </span>
-                <span class="">
+                <span class="pl-3">
                   <i class="fab fa-vuejs"></i>
                 </span>
-                <span class="">
+                <span class="pl-3">
                   <i class="fab fa-node-js"></i>
                 </span>
               </div>
             </div>
+
+            
           </div>
         </div>
       </div>
-
       <!-- FOOTER W/COPYRIGHT AND YEAR  -->
       <footer class="card-footer has-background-black">
         <p class="card-footer-item">
-          <span class="is-size-4">
+          <span class="is-size-3">
             <span class="pl-6">
               <i class="far fa-copyright"></i>
               Josue Rivera 2022
@@ -260,7 +268,12 @@
           </span>
         </p>
       </footer>
+
+      
     </div>
+
+
+    
   </section>
 </template>
 

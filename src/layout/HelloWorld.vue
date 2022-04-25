@@ -56,7 +56,8 @@
         <!-- <h1 id="jdr" class="title is-size-1 has-text-white my-6 pt-6">Josue Demar Rivera	</h1> -->
 
         <!-- <img src="../assets/1-glow.svg" alt=""> -->
-        <img src="../assets/1.svg" alt="">
+        <img src="../assets/JDR_WD_Landing.svg" alt="">
+        <!-- <img src="../assets/1.svg" alt=""> -->
         <!-- <img src="../assets/1-bkdrop.svg" alt=""> -->
         <!-- <img src="../assets/2-bkdrop.svg" alt=""> -->
         <!-- <img src="../assets/2.svg" alt=""> -->

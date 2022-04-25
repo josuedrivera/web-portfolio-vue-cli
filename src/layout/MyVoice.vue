@@ -1,299 +1,78 @@
 <template>
-
-<!-- <section
-    id="blog-podcast"
-    class="
-      section
-      columns
-      hero
-      is-fullheight
-      has-background-black-ter
-      is-vcentered
-      
-    "
-  >
-    <div
-      class="container columns column hero-head is-8 has-background-black-ter"
-    >
-      <h2 class="title is-size-1 has-text-danger">MY PERSPECTIVE</h2>
-    </div>
-
-    <div
-      class="
-        container
-        hero-body
-        columns
-        column
-        box
-        tile
-        is-ancestor is-12 is-centered
-        has-background-black-ter
-        py-0
-      "
-    >
-      <div class="tile box has-background-danger is-12">
-        <div
-          class="
-            tile
-            is-parent is-vertical
-            has-text-centered
-            p-0
-            has-background-grey-dark
-          "
-        >
-          <article class="tile is-child is-flex">
-            <div class="container">
-              
-            </div>
-          </article>
-        </div>
-
-        <div class="has-background-grey-darker tile is-vertical p-4  is-4">
-          <div class="is-12 is-flex is-flex-direction-column">
-            
-          </div>
-
-          <div>
-            <h1>{{ msg }}</h1>
-          </div>
-
-         
-        </div>
-      </div>
-     
-    </div>
-  </section> -->
-
-
-  <!-- <section
-    id="blog-podcast"
-    class="
-      section
-      columns
-      hero
-      is-fullheight
-      has-background-black-ter 
-      
-      is-vcentered
-    "
-  >
-   
-    <div class="container columns column  is-8 is-offset-2 has-background-black-ter">
-      <h2 class="title is-size-1 has-text-danger">
-        MY PERSPECTIVE
-      </h2>
-    </div> -->
-
-
-
-
-<section
+  <section
     id="blog-podcast"
     class="section columns hero is-fullheight has-background-black-ter"
   >
     <div class="columns column container is-8 is-offset-2">
-      <h2 class="title is-size-1 has-text-danger">
+      <h2 class="title is-size-1 has-text-danger pt-6">
         MY PERSPECTIVE
       </h2>
     </div>
 
-
     <div class="hero-body has-background-black-ter">
       <div class="column is-8 is-offset-2">
-        <div class="has-background-info tile is-ancestor box">
+        <div class="has-background-link tile is-ancestor box">
           <div
             class="
               tile
               is-parent is-vertical
               has-text-centered
-              is-4
-              has-background-primary
+              has-background-danger
             "
           >
-            <article class="tile is-child is-flex">
-              <div class="container">
-                <!-- headshot -->
-                <figure class="image">
-                  <img
-                    id="headshot"
-                    class="is-rounded"
-                    src="../assets/headshotsm.jpg"
-                  />
-                </figure>
-                <div>
-                  <h1>{{ msg }}</h1>
-                </div>
+          
 
-                <!-- <h1>{{ msg }}</h1> -->
-
-                <!-- name and title -->
-                <div class="box has-background-danger mx-4">
-                  <h1 class="title has-text-white">Josue Rivera</h1>
-                  <h2 class="subtitle has-text-black">
-                    Front-End Developer
-                    <!-- | Creative Professional -->
-                  </h2>
-                </div>
-
-                <div class="container">
-                  <span class="is-size-3 has-text-white">
-                    <!-- <i class="fas fa-map-pin"></i> -->
-                    <i class="fas fa-map-marker-alt has-text-danger"></i> San
-                    Mateo, CA
-                  </span>
-                  <br />
-                  <span class="is-size-3 has-text-white">
-                    <i class="fas fa-lock-open has-text-success"></i>
-                    Looking for Work
-                  </span>
-                  <br />
-                  <span class="is-size-3 has-text-white">
-                    <i class="fas fa-paw has-text-info"></i>
-                    Smokey & Bandit
-                  </span>
-                  <!-- <span class="is-size-3 has-text-white">
-										<i class="fas fa-paw"></i>
-										
-									</span> -->
-
-                  <a href="#blog-podcast">
-                    <span class="is-block has-text-info is-size-2">
-                      <i
-                        class="
-                          fas
-                          fa-angle-down
-                          welcome-down
-                          is-size-2
-                          has-text-info
-                          p-0
-                          m-0
-                        "
-                      ></i>
-                      Checkout My Work</span
-                    >
-                  </a>
-                </div>
-
-              
-                <!-- closes bio column -->
-              </div>
-            </article>
-          </div>
-
-       
-
-          <div class="tile is-parent has-background-primary is-vertical">
-            <article class="tile is-child box has-background-grey-darker">
-
-              <div
-                class="
-                  container
-                  box
-                  has-background-grey-darker has-text-danger has-text-left
-                "
-              >
-                <p class="title block has-text-primary is-size-2">
-                  Hard Skills
-                </p>
-                <span
-                  class="
-                    block
-                    subtitle
-                    has-text-grey has-text-weight-bold
-                    is-size-3
-                  "
-                >
-                  Languages: <br
-                /></span>
-                <div class="block is-flex is-flex-direction-row">
-                  <p class="subtitle block has-text-grey-light is-size-4">
-                    <i class="fab fa-html5 is-size-1 mt-3 mx-3"></i> |HTML5
-                    <i class="fab fa-css3-alt is-size-1 mt-3 mx-3"></i> |CSS3
-                    <i class="fab fa-js-square is-size-1 mt-3 mx-3"></i>
-                    |JAVASCRIPT (ES5/ES6)
-                  </p>
-                </div>
-
-                <span
-                  class="
-                    block
-                    subtitle
-                    has-text-grey has-text-weight-bold
-                    is-size-3
-                  "
-                >
-                  Applications: <br
-                /></span>
-                <p class="subtitle block has-text-grey-light is-size-4">
-                  <span class=""
-                    >WordPress, SquareSpace, SharePoint, Shopify <br
-                  /></span>
-                  <span class=""
-                    >SCSS/SASS, Bootstrap, Bulma, Semantic UI <br
-                  /></span>
-                  <span class=""
-                    >Vue.js, jQuery, Node.js, NPM +a variety of node packages
-                    <br
-                  /></span>
-                </p>
-                <p class="is-size-4">
-                  <span class="has-text-weight-bold">
-                    Design Process & Theory</span
-                  >
-                  | Responsive Design, Media Queries, Version Control, Github,
-                  AJAX, JSON, APIs, RESTful Routes, CSS Naming Convention, Cross
-                  Browser Development, Browser Dev Tools, Testing/Debugging,
-                  Command Line...
-                </p>
-                <br />
-                <ul class="block is-size-4">
-                  <span class="has-text-weight-bold">
-                    Also experienced with:
-                  </span>
-                  <li>Adobe XD, Adobe CC(Illustrator, Photoshop, InDesign)</li>
-                  <li>MS Suite, Google Suite (including Apps Script)</li>
-                  <li>Express.js, passport.js, and various Node.js packages</li>
-                  <li>
-                    JIRA - Issue and Project Tracking Software, others, and
-                    still eagerly learning....
-                  </li>
-                </ul>
-              </div>
-
-              <!-- closes column div  -->
-              <!-- </div> -->
-            </article>
-              <!-- buttons  -->
-              <div
-                class="buttons has-addons is-flex is-justify-content-flex-end"
-              >
-                <router-link class="button is-danger" to="/aboutMe">
-                  About Me</router-link
-                >
-
-                <router-link class="button is-danger" to="/hardSkills">
-                  Hard Skills</router-link
-                >
-
-                <router-link class="button is-danger" to="/softSkills">
-                  Soft Skills</router-link
-                >
-
-                <router-link
-                  class="button is-inverted is-danger"
-                  to="/spaceMan"
-                >
-                  <i class="fas fa-lg fa-user-astronaut"></i>
-                </router-link>
-              </div>
-          </div>
-          <!-- </div> -->
+          <!-- <div class="tile is-ancestor"> -->
+  <!-- <div class="tile is-vertical is-8"> -->
+     <div class="tile is-parent">
+      <article class="tile is-child notification is-danger">
+        <p class="title">Wide tile</p>
+        <p class="subtitle">Aligned with the right tile</p>
+        <div class="content">
+          <!-- Content -->
         </div>
-        <!-- closes container div  -->
+      </article>
+    </div>
+    <div class="tile">
+      
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-link">
+          <p class="title">CHECK OUT MY BLOG</p>
+          <p class="subtitle">What I've Learned From Kids and Kittens</p>
+        </article>
+        <article class="tile is-child notification is-link">
+          <p class="title">CHECK OUT MY PODCASTS</p>
+          <p class="subtitle">Delusions of Grandeur</p>
+          <p class="subtitle">Psychonauts and Bubble Butts</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-dark">
+          <p class="title">CHECK OUT MY TRAVEL BLOG</p>
+          <p class="subtitle">places2Go</p>
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/640x480.png">
+          </figure>
+        </article>
+      </div>
+    </div>
+   
+  <!-- </div> -->
+  
+<!-- </div> -->
+          
+         
+
+
+
+
+
+
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
 </template>
 
 <script>

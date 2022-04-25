@@ -1,5 +1,4 @@
-<template>
-
+<template>        
 <section
     id="project-gallery"
     class="
@@ -9,24 +8,36 @@
       is-fullheight
       has-background-black-ter
       
-      is-vcentered
+      
     "
   >
-    <div>
-    <!-- <div
-      class="container columns column hero-head is-8 has-background-black-ter"
-    > -->
-      <h2 class="title is-size-1 has-text-grey-light">MY WORK</h2>
+    
+    <div class="columns column container is-8 is-offset-2">
+      <h2 class="title is-size-1 has-text-grey-light  pt-6">MY WORK</h2>
     </div>
+    
+   
 
-    <div
+    <!-- <div
       id="project-slides"
       class="container tile is-ancestor is-10 "
-    >
-     <div class="tile box has-background-black p-3  has-background-grey-light">
-      
+    > -->
+    <div class="hero-body has-background-black-ter">
 
-        <div class="tile is-vertical box  has-background-black-ter p-3">
+     <!-- <div class="tile box has-background-black p-3  has-background-grey-light"> -->
+      <div class="column is-8 is-offset-2 ">
+
+        <!-- <div class="tile is-vertical box  has-background-black-ter p-3"> -->
+          <div class="has-background-grey-light tile is-ancestor box">
+            <div
+            class="
+              tile
+              is-parent is-vertical
+              has-text-centered
+              
+              has-background-grey
+            "
+          >
           <div class="card p-0">
             <div class="card-content has-background-grey-darker">
               <div class="tile has-background-black-bis">
@@ -34,7 +45,7 @@
                   <article class="tile is-child p-0">
                     <div class="tile is-vertical p-0">
                       <!-- vue router  -->
-                      <div id="app" class="has-background-black-bis">
+                      <div id="app-router" class="has-background-black-bis">
                         <div class="">
                           <!-- <transition mode="out-in" name="bounce">
 														<router-viewer></router-viewer>
@@ -115,7 +126,7 @@
                           >Score Keeper
                         </router-link>
                       </li>
-                      <!-- <li class="">
+                      <li class="">
 							<router-link to="/eight" class="has-text-primary">Roast Sway
 							</router-link>
 						</li>
@@ -142,7 +153,7 @@
 						<li class="">
 							<router-link to="/fourteen" class="has-text-primary">Faithful Quiz
 							</router-link>
-						</li> -->
+						</li>
                       <!-- <li class="">
 							<router-link to="/fifteen" class="has-text-primary">Faithful Quiz
 							</router-link>
@@ -169,6 +180,7 @@
               </h3>
             </footer>
           </div>
+            </div>
         </div>
       </div>
     </div>
