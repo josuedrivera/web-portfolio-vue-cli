@@ -13,7 +13,7 @@
   >
     
     <div class="columns column container is-8 is-offset-2">
-      <h2 class="title is-size-1 has-text-grey-light  pt-6">MY WORK</h2>
+      <h2 class="title is-size-1 has-text-info  pt-6">MY WORK</h2>
     </div>
     
    
@@ -22,13 +22,13 @@
       id="project-slides"
       class="container tile is-ancestor is-10 "
     > -->
-    <div class="hero-body has-background-black-ter">
+    <div class="hero-body ">
 
      <!-- <div class="tile box has-background-black p-3  has-background-grey-light"> -->
       <div class="column is-8 is-offset-2 ">
 
         <!-- <div class="tile is-vertical box  has-background-black-ter p-3"> -->
-          <div class="has-background-grey-light tile is-ancestor box">
+          <div class="has-background-info tile is-ancestor box">
             <div
             class="
               tile
@@ -39,18 +39,19 @@
             "
           >
           <div class="card p-0">
-            <div class="card-content has-background-grey-darker">
+            <div class="card-content has-background-primary">
               <div class="tile has-background-black-bis">
-                <div class="tile is-parent is-vertical p-0">
-                  <article class="tile is-child p-0">
-                    <div class="tile is-vertical p-0">
+                <h1>{{ msg }}</h1>
+                <div class="tile is-parent is-vertical p-0   has-background-info">
+                  <article class="tile is-child p-0  has-background-danger">
+                    <div class="tile is-vertical p-0  has-background-link">
                       <!-- vue router  -->
                       <div id="app-router" class="has-background-black-bis">
                         <div class="">
                           <!-- <transition mode="out-in" name="bounce">
 														<router-viewer></router-viewer>
 													</transition>   -->
-
+                          
                           <p>{{ projectName }}</p>
                           <img :src="projectImg" alt="" />
                           <a v-bind:href="projectLink"
@@ -89,73 +90,73 @@
                     "
                   >
                     <!-- MY PROJECTS: LIST  -->
-                    <ul class="px-4">
-                      <h1>{{ msg }}</h1>
+                    <ul class="px-4 has-text-info">
+                      
                       <li class="">
-                        <router-link to="/one" class="has-text-primary"
+                        <router-link to="/one" class=""
                           >Digital Drumkit
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/two" class="has-text-primary"
+                        <router-link to="/two" class=""
                           >Pusheen Zodiac
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/three" class="has-text-primary"
+                        <router-link to="/three" class=""
                           >Natours
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/four" class="has-text-primary"
+                        <router-link to="/four" class=""
                           >Color Guess
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/five" class="has-text-primary"
+                        <router-link to="/five" class=""
                           >Monster Attack
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/six" class="has-text-primary"
+                        <router-link to="/six" class=""
                           >To Do App
                         </router-link>
                       </li>
                       <li class="">
-                        <router-link to="/seven" class="has-text-primary"
+                        <router-link to="/seven" class=""
                           >Score Keeper
                         </router-link>
                       </li>
                       <li class="">
-							<router-link to="/eight" class="has-text-primary">Roast Sway
+							<router-link to="/eight" class="">Roast Sway
 							</router-link>
 						</li>
 						<li class="">
-							<router-link to="/nine" class="has-text-primary">Villains
+							<router-link to="/nine" class="">Villains
 							</router-link>
 						</li>
 						<li class="">
-							<router-link to="/ten" class="has-text-primary">U-Host
+							<router-link to="/ten" class="">U-Host
 							</router-link>
 						</li>
 						<li class="">
-							<router-link to="/eleven" class="has-text-primary">Patatap Clone
+							<router-link to="/eleven" class="">Patatap Clone
 							</router-link>
 						</li>
 						<li class="">
-							<router-link to="/twelve" class="has-text-primary">Aurora Grove
+							<router-link to="/twelve" class="">Aurora Grove
 							</router-link>
 						</li>
 						<li class="">
-							<router-link to="/thirteen" class="has-text-primary">Bulma
+							<router-link to="/thirteen" class="">Bulma
 								Portfolio</router-link>
 						</li>
 						<li class="">
-							<router-link to="/fourteen" class="has-text-primary">Faithful Quiz
+							<router-link to="/fourteen" class="">Faithful Quiz
 							</router-link>
 						</li>
                       <!-- <li class="">
-							<router-link to="/fifteen" class="has-text-primary">Faithful Quiz
+							<router-link to="/fifteen" class="">Faithful Quiz
 							</router-link>
 						</li> -->
                     </ul>
@@ -167,14 +168,14 @@
             <footer
               class="
                 card-footer
-                has-background-primary
+                has-background-danger
                 is-flex is-justify-content-center
               "
             >
               <h3 id="">
                 <a href="#contact-info" class="is-size-4 has-text-white">
                   <i class="fas fa-angle-down welcome-down"></i>
-                  <span> Sway says 'Hi!' | KEEP UP AND STAY IN TOUCH </span>
+                  <span> Sway says 'Hi!' | check out my Blog & Podcast </span>
                   <i class="fas fa-angle-down welcome-down"></i>
                 </a>
               </h3>
@@ -266,4 +267,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.section {
+  background: url('https://res.cloudinary.com/dfuxcsi7w/image/upload/v1651303602/Photos-001/josh-wilburne-yhFdxUYkgA8-unsplash_jwf3dw.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.95;
+}
+
+
 </style>

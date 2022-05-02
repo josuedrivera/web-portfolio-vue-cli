@@ -17,13 +17,13 @@
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#blog-podcast" class="navigation__link">
-            <span>02</span> Blog & Podcast
+          <a href="#project-gallery" class="navigation__link">
+            <span>02</span> Project Gallery
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#project-gallery" class="navigation__link">
-            <span>03</span> Project Gallery
+          <a href="#blog-podcast" class="navigation__link">
+            <span>03</span> Blog & Podcast
           </a>
         </li>
         <li class="navigation__item">
@@ -47,7 +47,7 @@
 
     <!-- LANDING PAGE CONTENT -->
     <div id="hello-world-hero" class="hero-body">
-      <figure class="hero-head image has-background-info-dark p-1 logoTest">
+      <figure class="hero-head image has-background-info-dark logoImg">
         <img class="is-rounded" src="../assets/swaysauce_pfp.jpeg" alt="" />
         <!-- <img class="is-rounded" src="../assets/swaysauce_pfp.jpeg" alt="" /> -->
       </figure>
@@ -101,6 +101,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#hello-world {
+  
+ 
+  /* z-index: -1;
+  opacity: 0.95;
+ 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: contain; */
+  /* background-position: cover; */
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -118,18 +136,18 @@ export default {
   object-fit: cover;
 }
 
-.logoTest {
+.logoImg {
   /* width: 4.5rem;
   height: 4.5rem; */
   width: 7.5rem;
   height: 7.5rem;
   position: fixed;
-  top: 4rem;
-  left: 4rem;
+  top: 7rem;
+  left: 7rem;
   /* color: aqua; */
   font-family: 'Economica', sans-serif;
   font-size: 3rem;
-  border: 0.5rem solid teal;
+  border: 0.5rem solid aqua;
   /* border: 0.5rem solid #07d1b2; */
   border-radius: 50%;
   font-weight: 700;
@@ -171,8 +189,8 @@ export default {
   width: 7rem;
   /* width: 5rem; */
   position: fixed;
-  top: 4rem;
-  right: 4rem;
+  top: 7rem;
+  right: 7rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
@@ -199,11 +217,11 @@ export default {
   position: fixed;
   /* // top: 6.5rem;
   // right: 6.5rem; */
-  top: 5rem;
-  right: 5rem;
+  top: 8rem;
+  right: 8rem;
   /* // background-image: radial-gradient($color-primary-light, $color-primary-dark); */
   /* background-image: radial-gradient(aqua, teal); */
-  background-image: radial-gradient(aqua, #07D1B2);
+  background-image: radial-gradient(aqua, teal);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -236,7 +254,7 @@ export default {
   /* //create h/v center mixin out of these 4 lines and implement */
   position: absolute;
   /* top: 50%; */
-  top: 25%;
+  top: 33%;
   left: 45%;
   transform: translate(-50%, -50%);
   list-style: none;

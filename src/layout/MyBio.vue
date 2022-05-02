@@ -8,7 +8,7 @@
     </div>
 
 
-    <div class="hero-body has-background-black-ter">
+    <div class="hero-body ">
       <div class="column is-8 is-offset-2">
         <div class="has-background-info tile is-ancestor box">
           <div
@@ -216,6 +216,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.section {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), black);
+  /* background-image: linear-gradient(rgba(0, 128, 128, 0.2), black 1%); */
+  /* background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,128,128,1)); */
+}
+
 #headshot {
   max-width: 75%;
   margin: 0 auto;
