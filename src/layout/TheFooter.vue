@@ -8,26 +8,33 @@
       <div class="column is-8 is-offset-2">
         <div class="has-background-info box">
           <div
-            class="tile is-child box has-background-grey-darker has-text-info"
+            class="tile is-child box has-background-grey-darker has-text-danger"
           >
             <p class="is-size-1 px-6 has-text-centered has-text-weight-bold">
               Thanks for visiting my site.
             </p>
-            <p class="is-size-3 px-6 py-3 has-text-primary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel
-              atque molestias hic quia porro alias adipisci assumenda molestiae
-              excepturi iusto, nobis officia reiciendis tempora laborum quod
-              ipsa in inventore. Email me for work inquiries.
+            <p class="is-size-2 px-6 py-3 has-text-info">
+              If you have a project you'd like to discuss, please get in
+              touch...
             </p>
-            <!-- <p class="is-size-6 p-6">work inquiries</p> -->
-            <h3>{{ msg }}</h3>
+            <p class="is-size-4 px-6 py-3 has-text-primary">
+              I'm available for hire in Web Development, UI/UX Design, and Content Management in the San Francisco Bay Area, California, as
+              well as freelance projects to also include graphic design and marketing.
+              <!-- Use the form to inquire about rates and availability, or email me
+              directly.  -->
+              
+              <span class="is-block has-text-info">{{ msg }}</span>
+              <span class="is-block is-size-3 has-text-info">
+              josue@fakemail.com | 777-888-9999
+              </span>
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="" class="card has-background-primary">
-      <div class="has-background-primary column is-8 is-offset-2">
+    <div class="card has-background-primary">
+      <div id="footbg" class="has-background-primary column is-8 is-offset-2">
         <div class="card-content">
           <div class="tile is-vertical">
             <div class="is-size-3 has-text-right">
