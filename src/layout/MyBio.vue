@@ -30,9 +30,9 @@
                     src="../assets/headshotsm.jpg"
                   />
                 </figure>
-                <div>
+                <!-- <div>
                   <h1>{{ msg }}</h1>
-                </div>
+                </div> -->
 
                 <!-- <h1>{{ msg }}</h1> -->
 
@@ -40,7 +40,8 @@
                 <div class="box has-background-danger mx-4">
                   <h1 class="title has-text-white">Josue Rivera</h1>
                   <h2 class="subtitle has-text-black">
-                    Front-End Developer
+                    {{ msg }}
+                    <!-- Front-End Developer -->
                     <!-- | Creative Professional -->
                   </h2>
                 </div>

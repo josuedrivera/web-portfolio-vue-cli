@@ -2,10 +2,10 @@
 
   <HelloWorld msg="more about me" />
   <!-- <HelloWorld msg="Welcome to my WEB_PORTFOLIO/>" /> -->
-  <MyBio msg="This is my Bio and Skillset" />
-  <MyWork msg="Check out my Project Gallery!" />
-  <MyVoice msg="Check out my Blog and Podcast!" />
-  <TheFooter msg="Stay in touch!" />
+  <MyBio msg="Front-End Developer" />
+  <MyWork msg="Select A Project To View" />
+  <MyVoice msg="Blog and Podcast coming soon!" />
+  <TheFooter msg="Stay in Touch!" />
 
 
   <!-- BURGER AND NAVIGATION -->
