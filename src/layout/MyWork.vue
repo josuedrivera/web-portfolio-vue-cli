@@ -143,7 +143,7 @@
                           class="py-1"
                         >
                           <a
-                            href="#"
+                            href="#project-gallery"
                             @click="selectProject"
                             class="px-4 has-text-info"
                           >
